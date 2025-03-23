@@ -8,6 +8,16 @@ app = FastAPI()
 HISTORY_DIR = "history"
 MAX_HISTORY = 5
 
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 def init_history():
     if not os.path.exists(HISTORY_DIR):
         os.makedirs(HISTORY_DIR)
