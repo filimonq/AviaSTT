@@ -45,7 +45,7 @@ graph TD
 
 ## 🖼️ Прототипы интерфейса
 
-![Alt text](relative%20path/to/pilot_ui.png?raw=true "Title")
+![Alt text](relative%20path/pilot_ui.png?raw=true "Title")
 
 ---
 
