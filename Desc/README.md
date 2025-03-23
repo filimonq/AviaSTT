@@ -45,7 +45,7 @@ graph TD
 
 ## 🖼️ Прототипы интерфейса
 
-![](https://github.com/filimonq/AviaSTT/blob/a357d20e3ee0b2345694c1c5e2bfb6674386cdac/Desc/pilot-ui.png)
+![](https://github.com/filimonq/AviaSTT/blob/392fae8517b0a9ec21f0750537f35ebee6a5a998/Desc/gui.png)
 
 ---
 
