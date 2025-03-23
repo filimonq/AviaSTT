@@ -1,10 +1,12 @@
 from fastapi import FastAPI, WebSocket, HTTPException
+from fastapi.websockets import WebSocketDisconnect, WebSocketState
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 import os
 import glob
 from datetime import datetime
+import whisper
 
 app = FastAPI()
 
@@ -24,6 +26,9 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 HISTORY_DIR = "history"
 AUDIO_DIR = "audio"
 MAX_HISTORY = 5
+
+# Загрузка модели Whisper
+model = whisper.load_model("base")
 
 def init_dirs():
     if not os.path.exists(HISTORY_DIR):
@@ -46,13 +51,6 @@ def archive_session():
     files = sorted(glob.glob(f"{HISTORY_DIR}/*.txt"), key=os.path.getctime)
     while len(files) > MAX_HISTORY:
         os.remove(files.pop(0))
-
-def save_audio(data: bytes):
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    file_path = f"{AUDIO_DIR}/{timestamp}.wav"
-    with open(file_path, "wb") as f:
-        f.write(data)
-    return file_path
 
 @app.get("/", response_class=HTMLResponse)
 async def serve_index():
@@ -80,18 +78,48 @@ async def get_history():
 async def websocket_endpoint(websocket: WebSocket):
     await websocket.accept()
     init_dirs()
-    
+    audio_buffer = bytearray()
+
     try:
         while True:
-            audio_chunk = await websocket.receive_bytes()
-            file_path = save_audio(audio_chunk)
-            text = f"Аудио сохранено: {file_path}"
-            await websocket.send_text(text)
-            log_transcription(text)
+            print("start")
+            message = await websocket.receive()
+            
+            if "text" in message:
+                print(message["text"])
+                if message["text"] == "STOP":
+                    break
+            elif "bytes" in message:
+                audio_buffer.extend(message["bytes"])
+    except WebSocketDisconnect:
+        print("WebSocket был отключен.")
     except Exception as e:
-        print(f"Ошибка: {e}")
+        print(f"Ошибка приема данных: {e}")
     finally:
-        await websocket.close()
+        temp_filename = "temp_recording.wav"
+        try:
+            # Сохраняем аудио во временный файл
+            with open(temp_filename, "wb") as f:
+                f.write(audio_buffer)
+            
+            # Транскрибируем аудио с помощью Whisper
+            try:
+                result = model.transcribe(temp_filename)
+                transcription = result.get("text", "").strip()
+            except Exception as e:
+                transcription = f"Ошибка распознавания: {e}"
+
+            # Отправляем результат клиенту, если соединение все еще открыто
+            if websocket.client_state == WebSocketState.CONNECTED:
+                await websocket.send_text(transcription)
+                log_transcription(transcription)
+        finally:
+            # Удаляем временный файл
+            if os.path.exists(temp_filename):
+                os.remove(temp_filename)
+            # Пробуем закрыть соединение только если оно еще открыто
+            if websocket.client_state == WebSocketState.CONNECTED:
+                await websocket.close()
 
 if __name__ == "__main__":
     import uvicorn
