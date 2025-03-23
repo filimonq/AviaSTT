@@ -18,6 +18,11 @@ graph TD
   A[Запись аудио] --> C[Распознание речи]
   C --> D[Коррекция через ICAO]
   D --> E[Вывод текста]
+
+  style A fill:#E0F2E9,stroke:#4CAF50,stroke-width:2px,color:#000000
+  style C fill:#E0F2E9,stroke:#4CAF50,stroke-width:2px,color:#000000
+  style D fill:#E0F2E9,stroke:#4CAF50,stroke-width:2px,color:#000000
+  style E fill:#E0F2E9,stroke:#4CAF50,stroke-width:2px,color:#000000
 ```
 
 ---
