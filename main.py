@@ -3,6 +3,7 @@ from fastapi.responses import HTMLResponse
 import os
 import glob
 from datetime import datetime
+import whisper
 
 app = FastAPI()
 HISTORY_DIR = "history"
@@ -18,13 +19,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+model = whisper.load_model("base")
+
 def init_history():
     if not os.path.exists(HISTORY_DIR):
         os.makedirs(HISTORY_DIR)
 
 def log_transcription(text: str):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    log_message = f"[{timestamp}] {text}\n"
+    log_message = f"{text}\n"
     print(log_message, end='')
     
     with open("current_session.txt", "a", encoding="utf-8") as f:
@@ -93,7 +95,10 @@ async def get():
 
                             mediaRecorder = new MediaRecorder(audioStream);
                             mediaRecorder.ondataavailable = (e) => {
-                                if (e.data.size > 0) ws.send(e.data);
+                                if (e.data.size > 0 && ws.readyState === WebSocket.OPEN) {
+                                    // Отправляем бинарные данные на сервер
+                                    ws.send(e.data);
+                                }
                             };
                             
                             mediaRecorder.start(500);
@@ -103,9 +108,12 @@ async def get():
                     }
 
                     function stopRecording() {
+                        // Останавливаем запись и отправляем специальное сообщение "STOP"
                         mediaRecorder?.stop();
                         audioStream?.getTracks().forEach(track => track.stop());
-                        ws?.close();
+                        if (ws && ws.readyState === WebSocket.OPEN) {
+                            ws.send("STOP");
+                        }
                         document.getElementById("startBtn").disabled = false;
                         document.getElementById("stopBtn").disabled = true;
                     }
@@ -132,18 +140,33 @@ async def get_history():
 async def websocket_endpoint(websocket: WebSocket):
     await websocket.accept()
     init_history()
-    
+    audio_buffer = bytearray()
     try:
         while True:
-            audio_chunk = await websocket.receive_bytes()
-            text = f"Запись {datetime.now().strftime('%H:%M:%S')}"
-            await websocket.send_text(text)
-            log_transcription(text)
-                
+            message = await websocket.receive()
+            if "text" in message:
+                if message["text"] == "STOP":
+                    break
+            elif "bytes" in message:
+                audio_buffer.extend(message["bytes"])
     except Exception as e:
-        print(f"Ошибка: {e}")
+        print(f"Ошибка приема данных: {e}")
     finally:
-        await websocket.close()
+        temp_filename = "temp_recording.wav"
+        try:
+            with open(temp_filename, "wb") as f:
+                f.write(audio_buffer)
+            try:
+                result = model.transcribe(temp_filename)
+                transcription = result.get("text", "").strip()
+            except Exception as e:
+                transcription = f"Ошибка распознавания: {e}"
+            await websocket.send_text(transcription)
+            log_transcription(transcription)
+        finally:
+            if os.path.exists(temp_filename):
+                os.remove(temp_filename)
+            await websocket.close()
 
 if __name__ == "__main__":
     import uvicorn
