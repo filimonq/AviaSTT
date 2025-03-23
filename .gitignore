@@ -1,3 +1,4 @@
 *.txt
 *.pyc
 *.wav
+node_modules/
