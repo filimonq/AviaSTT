@@ -46,7 +46,7 @@ graph TD
 
 ## 🖼️ Прототипы интерфейса
 
-![pilot ui](Desc/pilot_ui.png)
+![pilot ui](pilot_ui.png)
 
 
 ---
