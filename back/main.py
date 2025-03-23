@@ -10,6 +10,8 @@ import whisper
 
 app = FastAPI()
 
+app.mount("/static", StaticFiles(directory="static"), name="static")
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://127.0.0.1:8000", "http://localhost:8000"],  # Укажите адреса фронтенда
@@ -96,13 +98,27 @@ async def websocket_endpoint(websocket: WebSocket):
     finally:
         temp_filename = "temp_recording.wav"
         try:
+            # Проверяем, есть ли данные в буфере
+            if not audio_buffer:
+                print("Аудиобуфер пуст. Нет данных для записи.")
+                return
+
             # Сохраняем аудио во временный файл
             with open(temp_filename, "wb") as f:
                 f.write(audio_buffer)
             
+            # Проверяем, существует ли файл
+            if not os.path.exists(temp_filename):
+                print(f"Файл {temp_filename} не был создан.")
+                return
+
             # Транскрибируем аудио с помощью Whisper
             try:
+                if not os.path.exists(temp_filename):
+                    print(f"Файл {temp_filename} не был создан.")
+                    return
                 result = model.transcribe(temp_filename)
+                print("aaa")
                 transcription = result.get("text", "").strip()
             except Exception as e:
                 transcription = f"Ошибка распознавания: {e}"

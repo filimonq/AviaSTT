@@ -1,0 +1,133 @@
+/* Основные стили для карточки */
+.card {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  
+  .card-content {
+    padding: 1.5rem;
+  }
+  
+  /* Стили для контейнера с микрофоном */
+  .recorder-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .recorder-circle {
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .recorder-circle-background {
+    position: absolute;
+    inset: 0;
+    border-radius: 9999px;
+  }
+  
+  .recorder-circle-background.recording {
+    background-color: #fee2e2;
+    animation: pulse 1.5s infinite;
+  }
+  
+  .recorder-circle-background.idle {
+    background-color: #f3f4f6;
+  }
+  
+  /* Анимация пульсации */
+  @keyframes pulse {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Стили для кнопки */
+  .recorder-button {
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 9999px;
+  }
+  
+  .recorder-button.destructive {
+    background-color: #ef4444;
+  }
+  
+  .recorder-button.default {
+    background-color: #3b82f6;
+  }
+  
+  /* Стили для текста */
+  .recorder-status {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .recorder-status.recording {
+    color: #ef4444;
+    font-weight: 500;
+  }
+  
+  .recorder-status.idle {
+    color: #6b7280;
+  }
+  
+  /* Стили для списка записей */
+  .recordings-list {
+    margin-top: 2rem;
+  }
+  
+  .recording-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem;
+    background-color: #f9fafb;
+    border-radius: 0.5rem;
+  }
+  
+  .recording-item-buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  /* Стили для зеленой кнопки */
+.save-button {
+  margin-top: 3rem;
+  background-color: rgb(177, 231, 153); /* Зеленый цвет */
+  color: white; /* Белый текст */
+  border: none; /* Убираем границу */
+  padding: 0.75rem 1.5rem; /* Отступы внутри кнопки */
+  border-radius: 0.5rem; /* Скругленные углы */
+  font-size: 1rem; /* Размер текста */
+  font-weight: 500; /* Жирный текст */
+  cursor: pointer; /* Курсор в виде указателя */
+  transition: background-color 0.3s ease; /* Плавное изменение цвета */
+}
+
+/* Состояние при наведении */
+.save-button:hover {
+  background-color: rgb(177, 231, 153); /* Темно-зеленый при наведении */
+}
+
+/* Состояние при нажатии */
+.save-button:active {
+  background-color: rgb(177, 231, 153); /* Еще темнее при нажатии */
+}
+
+/* Состояние при фокусе (для доступности) */
+.save-button:focus {
+  outline: none; /* Убираем стандартный outline */
+  box-shadow: 0 0 0 3px rgba(74, 222, 128, 0.5); /* Зеленая тень при фокусе */
+}

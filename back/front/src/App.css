@@ -1,0 +1,58 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: rgb(47, 48, 50);
+}
+
+.title-container {
+  background: rgb(177, 231, 153);
+  padding: 1rem;
+  border-radius: 0.0rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  /* Новые стили */
+  width: 100vw;       /* На всю ширину экрана */
+  height: 5rem;
+  margin-left: -50vw; /* Компенсация центрирования */
+  left: 50%;          /* Выравнивание по центру */
+  position: relative; /* Для позиционирования */
+}
+
+.title-text {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-align: left;    /* Выравнивание по левому краю */
+  margin-bottom: 2rem;
+  
+  /* Новые стили */
+  max-width: 1200px;   /* Ограничение ширины текста */
+  margin-left: auto;   /* Выравнивание блока текста */
+  margin-right: auto;  /* по центру внутри плашки */
+  padding: 0 1rem;     /* Отступы от краев */
+}
+
+/* Остальные стили остаются без изменений */
+.App-link {
+  color: #61dafb;
+}
