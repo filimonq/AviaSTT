@@ -49,7 +49,7 @@ graph TD
 ![pilot ui](Desc/pilot_ui.png)
 
 ><p align="center">
->   <img width="200px" src="pilot_ui.png" alt="qr"/>
+>   <img width="200px" src="pilot_ui.png"/>
 ></p>
 ---
 
