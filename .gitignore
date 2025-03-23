@@ -2,3 +2,4 @@
 *.pyc
 *.wav
 node_modules/
+test.py
