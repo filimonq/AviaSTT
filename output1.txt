@@ -1,0 +1,186 @@
+'. __ .. EVA872: Delivery, EVA 872, N26 fully ready
+'. Delivery: EVA 872, contact Ground 121:6
+Delivery: EVA 872, contact Ground 121:6
+
+EVA872: 121.6
+EVA872: 121.6
+EVA872:.Hong Kong Ground, EVA 872, N26, ready for push and start
+
+GND: EVA 872, call you back for push back, number two in the area
+GND: EVA 872, when the China Eastern 320 behind ts cleared
+GND: Start-up approved, push back color red
+EVA872: Roger, when the 320 Its cleared, clear for push and start
+EVA8/72: Push color red, EVA 872
+EVA872: EVA 872 request taxiing
+EVA872: Hong Kong Tower, EVA 872 request taxiing
+GND: EVA 872 taxi B7, B, hold short W
+EVA872: B7, B, hold short W, EVA 872
+GND: EVA 872 taxi W hold shot H
+EVA872: W, hold short H, EVA 872
+TWR: EVA 872, wind 100 degree, five knots, RWY O7R, clear to take off
+TWR: EVA 872,.wind 100-degree;-five knots, RWY 07R, clear to take off
+EVA872:-Clear-to take off RWY 07R, EVA 872
+CPA913: Hong Kong Tower Cathay 913, spot N34 request start-up 7
+GND: Cathay 913, start-up approved, push back color red
+CPA913: Start-up and push back, Cathay 913 .
+CPA913: Ground Cathay 913, request taxiing
+GND: Cathay 913, taxi B7, B, hold shot W,
+GND: You will be number one to the towed traffic on B
+CPA913: Err roger, taxi B7, B, hold shot W, confirm number one to the tow?
+GND: Affirm
+CPA913: Roger, taxi B7, B, hold shot W, number one, Cathay 913
+CPA038: Ground, hello, Cathay 038, we are just turning on K
+~ GND: Cathay 038 Ground, good day, taxi L3, bay C21
+~ CPA038: L3, C21, Cathay 038
+CPA539: Cathay 539, holding short H
+GND: 539 Ground, taxi H, H7, Bay S31
+CPA539: H, H7, $31, Cathay 539
+GND: Cathay 784, number one to opposite way Singapore
+‘GND: Taxi B7 for Bay N36
+CPA783: Copy, when able, B7, N36, Good night Cathay 784
+ICV5526: Ground, good evening, Cargolux Italia 5526
+ICV5526: Bay C24, fully ready for start and push
+GND: Cargolux Italia 5526, Ground, evening, call you back
+ICV5526: Standing by, Cargolux Italia 5526
+GND: Cargolux Italia 5526, start-up approved, push back color red
+ICV5526: Start-up approved, push back color red, Cargolux Italia 5526
+GND: Byebye
+GND: Cathay 507, Taxi A10, B8, Hold short B7
+CPA507: A10, B8, Hold short B7, Cathay 507
+DHA154: Dragon 154, taxiing
+GND: Dragon 154, taxi B7, hold short B
+DHA154: B7, hold short B, Dragon 154
+GND: Dragon 154, after the 767 crossing ahead is cleared shortly
+GND: Taxi B hold short W
+DHA154: B short on W, Dragon 154
+GND: Cathay 507, when able taxi left turn B7 for Bay E17
+CPA507: When able, left turn B7 to E17, Cathay 507
+GND: Dynasty 924, start-up approved, after Cathay behind is cleared shortly.
+GND: Push back color-red
+CAL924: Okay, after the Cathay:passing behind
+CAL924: We are cleared to push back and red, Dynasty 924
+CAL924: Ground, Dynasty 924, ready for taxiing
+GND: Dynasty 924, taxiing B8, left turn B, hold short B7
+CAL924: Okay, right turn B8, left turn B, hold short B7, 924
+ANG019: Hong Kong Ground, good evening, Niugini 019 W:to-hold short H
+_ GND: Niugini 19, Ground, good evening, taxi J, J2 holding point
+ANGO019: Taxi J, J2 holding point, Niugini 19
+~ TWR: Cathay 097, wind 110 degree, 5 knots, RWY 07R, cleared to,land
+CPAO097: Cleared to land RWY 07R, Cathay 097
+UAE385: Hong Kong Ground, Emirate 385
+UAE385: Good evening, N60 ready for push with information O
+GND: Emirate 385, start-up approved, push back code 4 green
+UAE385: Start-up approved, push back code 4 and green, Emirate 385
+GND: Emirate 385, for planning, how long before ready for taxiing?
+UAE385: Need one minute, Emirate 385
+GND: Roger
+GND: Dynasty 924, contact Ground South 122.55, good day
+CAL924: Contact Ground South, Dynasty 924, thank you very much have a great night
+CPA565: Ground North, good day, Cathay 565, turning ???
+GND: Cathay 565, taxi A10, B8 for Bay N26
+CPA565: A10, B8 N26, Cathay 565
+UAE385: Ground Emirate 385, request taxiing
+GND: Emirate 385 thank you, taxi left turn B, hold short W
+UAE385: Taxi left turn B, hold short W, Emirate 385
+GND: Emirate 385 taxi W, hold short H
+UAE385: Taxi W, hold short H, Emirate 385
+UAE385: Err Ground, Emirate 385, there is an aircraft on tow
+GND: Emirate 385, the aircraft is holding position, cleared of your way
+GND: Taxi W hold short H
+UAE385: Copy,’and taxi W hold short H, Emirate 385
+GND: Emirate 385; contact Ground South 122.55, good day
+UAE385: south 885 95, Emirate 385, good night
+QTR816: Hong Kong Ground, Qatari 816, good evening; vacating, we are on A&
+GND: Qatari 816, taxi A10, B8 for Bay N32
+QTR816: A10, B8, N32, Qatari 816
+RJA183: Hong Kong Ground, Jordanian 183, good evening
+GND: Jordanian 183, stand by, traffic on your right
+RJA183: Standing by
+GND: Qatari 816, continue taxi A, turn right A10, B8 for Bay N32
+QTR816: A, A10, B10 and N32, Qatari 816
+RJA183: Ground, Jordanian 183,
+GND: Jordanian 183, traffic behind shortly, call you back in 4 minutes
+RJA183: 4 minutes, thank you
+GND: Jordanian 183, start-up approve, stand by for push
+RJA183: Start-up approve, stand by for push, Jordanian 183
+GND: Jordanian 182, correction, Jordanian 183, push back color red
+RJA183: Push back color red, Jordanian 183
+RJA183: Jordanian 183, request taxiing
+GND: Jordanian 183, taxi B7, left turn B, hold short W
+GND: Number one to the tow on your right
+RJA183: Roger, B7, B, hold short W, number one, Jordanian 183
+—CPA135:-Ground Cathay 135, on Bay S49, information P, ready for start and push
+GND: Cathay 135, start-up approved, push back blue
+CPA135: Start approved, push blue, Cathay 135
+CPA649:-Ground, good evening, Cathay 649, 25, request push and start
+GND: Cathay 649, start-up approved, push back red
+CPA649: Start approved, push color red, Cathay 649
+TWR: Emirate 385, wind 070 degree, 8 knots, RWY 07R, clear to take off
+UAE385: Clear to take off RWY 07R. Emirate 385
+UAE385: Clear to take off RWY O7R, Emirate 385
+RJA183: Tower, err Ground, Jordanian 183, good evening
+GND: Jordanian 183, good evening, follow EVA, taxi J, holding point J2
+RJA183: Follow EVA, taxi J, holding point J2, Jordanian 183
+CPA617: Ground, good evening, Cathay 617, gate 41, ready for push back
+GND: Cathay 617, good evening, stand by ~~
+GND: Cathay:617, start-up approved, push blue—
+CPA135: Start-approved, push blue, Cathay 617—
+CAL928: Dynasty 928, Approaching H
+GND: Dynasty 928, contact Ground South 122.55, good night
+CAL928: Ground South 122.55, byebye, Dynasty 928, good day
+CAL928: Ground South, Dynasty 928, hold short H
+GND: Dynasty 928, taxi J, holding point J2
+GND: Dynasty 928, taxi J, holding point J2
+CAL928: Taxi J, holding point J2, Dynasty 928
+CPA902: Ground North, good evening, Cathay 902 left turn A
+CPA902: Ground Cathay 902
+GND: Cathay 902, taxi B, B7 to the Bay N60
+CPA902: B, and B/7, confirm N60
+GND: Affirm, B, B7 to the Bay N60
+CPA902: Roger, taxi B, B7 to Bay N60, Cathay 902
+ANA811: Hong Kong Ground, All Nippon 811, B7, N, errr B7, N30
+GND: All Nippon 811, good evening, taxi A8, B7, to Bay N30
+ANA811: All Nippon 811, B7, N30, 811
+GND: Cathay 408, traffic scheduled behind, maybe shortly in a minute
+CPA408: 408
+GND: Cathay 408, the Swiss on tow will-be entering Bay N24, once traffic in the Bay
+GND: Start-up approved, push back blue and make a long push back to clear B8
+CPA408: Swiss in N24, long push, push back blue, Cathay 408
+GND: Clear B8
+CPA408: Clear B8, Cathay 408
+GND: Dragon 483, taxi to Bay N505, the Cathay is pushing away
+DHA483: Taxi Bay N505, Dragon 483
+ETH 645: Ethiopion 645, join A
+GND: Ethiopion 645, taxi hold short A&
+ETH 645: Taxi hold short A8, Ethiopion 645
+GND: Ethiopion 645, you are number one to taxi on A8, B7, Bay N26
+ETH 645: Number one on A&, B7, Bay N26, Ethiopion 645
+BAW032: Speed Bird 32, request taxiing
+GND: Speed Bird 32, taxi B9, B hold short B7
+GND: Speed Bird 32, taxi H, J1 holding point, RWY 07R
+BAWO32: Right turn J, J1 holding point, RWY 07R, Speed Bird 32
+GND: Air France 185, good evening, stand by push and start
+AFR185: Stand by, Air France 185
+SAA287: Ground Springbok 287 request taxiing
+GND: Springbok,287,taxi H7, H, short on W
+SAA287: H7,H,short,on W, Springbok 287
+GND: Speed Bird,28,taxi B9, B, Hold short W
+GND: SpeedjBird 28, taxi B9, B, Hold short W
+BAW028: B9, B, hold short W, Speed Bird 28
+GND: Ethiopion 645, Start-up push back, color red
+
+ETH 645:.Rush and start red, Ethiopion 645
+UAL1.16:-Hong Kong Ground, United 116, information Z, request taxi ???
+ne
+UAL116: Hong Kong Ground, United 116, information Z, request taxi ???
+GND: United 116, ??? taxi B7, hold short on B
+UAL116: ??? taxi B7, hold short B, United 116
+GND: Asiana 746, taxi on H, hold short V
+AAR746: Taxi H, hold short V, Asiana 746
+GND: Kalitta 253, contact Tower South 118.4
+CKS253: 118.4, Kalitta 253
+SAS966: Hello, Scandinavian 966 heavy, N36, request start and push
+GND: Scandinavian 966, start-up approve, color red
+SAS966: Approved, color red, Scandinavian 966
+SAS966: Scandinavian 966, request taxiing
+GND: Scandinavian 966, taxi B7, B, W, hold short H
