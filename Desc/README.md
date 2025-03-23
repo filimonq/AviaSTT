@@ -46,10 +46,8 @@ graph TD
 
 ## 🖼️ Прототипы интерфейса
 
-![pilot ui](Desc/pilot_ui.png)
-
 ><p align="center">
->   <img width="200px" src="pilot_ui.png"/>
+>   <img width="200px" src="Desc/pilot_ui.png"/>
 ></p>
 ---
 
