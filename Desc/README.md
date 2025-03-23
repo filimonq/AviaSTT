@@ -45,9 +45,8 @@ graph TD
 
 ## 🖼️ Прототипы интерфейса
 
-><p align="center">
->   <img width="200px" src="Desc/pilot_ui.png"/>
-></p>
+![Alt text](relative%20path/to/pilot_ui.png?raw=true "Title")
+
 ---
 
 ## ✳️ Перспективы расширения
