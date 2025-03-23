@@ -1,0 +1,90 @@
+TWR: Eva 892, line up RWY 07R
+BR892: Line up RWY O7R, Eva 892
+
+CX492: Tower, good morning, Cathay 494 fully ready
+TWR: Cathay 494, Tower South, roger
+TWR: Eva 892, wind 070 degree, 14 knots, clear for take-off RWY 07R
+BR892: ??? clear for take-off, 892
+
+TWR: Japan Air 736, behind the landing Polar 747, line up RWY O7R behind
+JL736: Japan Air 736, after landing traffic Polar 747, line up RWY 07R behind
+TWR: American 126, are you ready?
+AA126: ???
+TWR: American 126, J1 line up and wait RWY 07R
+AA126: ???
+TWR: Ethiopian 644, line up RWY 07R
+ET644: Line up RWY O7R, Ethiopian 644
+SQ861: Hongkong Tower, Singapore 861 super, on H
+TWR: Singapore 861, Tower
+TWR: Cathay 171, line up RWY 07R
+TWR: Cathay 171, line up RWY 07R
+CX171: Line up RWY O7R, Cathay 171
+CX171: Line up RWY O7R, Cathay 171
+TWR: Singapore 861, line up RWY 07R
+SQ861: Line up RWY O7R, Singapore 861
+TWR: Indonesia 857, line up RWY O7R
+GA85/7: Line up RWY O7R, Indonesia 857
+PO243: Hongkong Tower, Polar 243 heavy, ???
+TWR: Polar 243, taxi K1 holding point
+PO243: K1 holding point, Polar 243
+TWR: Dragon 691, line up RWY O7R
+KA691: O7R, Dragon 691
+TWR: Polar 243, line up RWY 07R
+PO243: Line up RWY O7R, Polar 243
+TWR: Cathay 838, line up RWY 07R
+CX838: 838, line up RWY 07R
+TWR: Cathay 472, behind departing company, line up RWY 07R behind
+CX472: Behind departing company, line up RWY O7R behind, Cathay 472
+TWR: Cathay 472, wind 100 degree, 11 knots, clear for take-off RWY 07R
+CX472: Clear for take-off RWY 07R, Cathay 472
+TWR: Cathay 657, line up RWY 07R
+CX657: Line up RWY O7R, Cathay 657
+TWR: Giant 8094, wind 090 degree, 10 knots, RWY 07R, clear to land
+5Y8094: Clear to land RWY 07R, Giant 8094
+TWR: Dragon 896, behind landing traffic, line up RWY 07R behind
+KA896: Follow the landing???, Dragon 896
+TWR: Cathay 701, line up RWY 07R
+CX701: Line up RWY O7R, Cathay 701
+BR870: Tower, Eva 870, ???
+TWR: Eva 870, Tower, roger
+TWR: Eva 870, line up RWY 07R
+BR870: Line up RWY O7R, Eva 870
+TWR: Eva 870, clear for take-off RWY 07R, wind 100 degree, 10 knots
+BR870: Clear for take-off RWY 0O7R, Eva 870
+TWR: Cathay 542, line up and wait RWY 07R
+CX542: ???
+TWR: Cathay 080, taxi to K1-holding point
+CX080: K1 holding-point, Gathay 080
+TWR: Cathay 542, clear for take-off RWY 07R, wind 090 degree, 10 knots
+CX542: Clear for take-off RWY, Cathay 542
+TWR: Cathay 080 
+CX080: Cathay 080
+TWR: Cathay 080, line up RWY 07R
+CXO080: Line up O7R, Cathay O80
+TWR: Cathay 532, line up RWY 07R
+CX532: Line up 07R, Cathay 532
+TWR: Cathay 840, behind landing traffic, line up and wait RWY 07R behind
+
+CX840: Line up behind the landing traffic, Cathay 840
+TWR: Cathay 925, line up RWY 07R
+CX925: Line up RWY O7R, Cathay 925 
+TWR: Hongkong Shuttle 753, line up RWY 07R
+UO753: Line up RWY O7R, Hongkong Shuttle 753
+TWR: Air Canada 016, line up and wait RWY 07R
+ACO16: Line up and wait RWY O7R, Air Canada 016
+TWR: Dynasty 5837, wind 100 degree, 5 knots, RWY 07R, clear to land
+CI5837: RWY 07R, Clear to land, Dynasty 5837
+TWR: Bangkok Air 806, line up RWY 07R
+PG806: Line up RWY O7R, Bangkok Air 806
+TWR: Siberian 550, line up and wait RWY 07R
+S7550: ???
+TWR: Fiji 392, line up and wait RWY O7R
+FJ392: Line up and wait RWY O7R, Fiji 392
+TWR: Fiji 392, wind 090 degree, 8 knots, RWY O7R, clear for take off
+FJ392: Clear for take-off RWY O7R, Fiji 392
+TWR: Western Global 2542, Tower South, taxi to K1 holding point
+TWR: Western Global 2542, line up and wait RWY 07R
+TWR: UPS 67, line up and wait RWY 07R
+5X67: Line up and wait 07R, UPS67 
+TWR: UPS 67, wind 110 degree, 5 knots, RWY O7R, clear for take off
+5X67: Clear for take-off RWY 07R, UPS67
