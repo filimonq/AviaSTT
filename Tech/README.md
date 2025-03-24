@@ -20,4 +20,10 @@
 
 3) Исходный код решения
 - Исходный код в папке back
-- https://www.youtube.com/watch?feature=shared&v=8aJ-_Lth57c <- пример данных, которые мы использовали
+
+4) Примеры данных
+   - В папке Records лежат записи переговоров диспетчеров и пилотов, а в SubsForRecords находится расшифровки.
+   - [Aviation, Knowledge, Training - Radio Communication for Pilots ATPL](https://drive.google.com/file/d/0B5U9vIt8l3PGcEltMDU2X0pTaU0/view?pli=1&resourcekey=0-JVQlBYnS_4AURInXEqnW2g) - учебник для тренировки авиационной радиокоммуникации, где есть записи переговоров с реальных полетов
+   - [Плейлист с аудированиями для данного учебника](https://www.youtube.com/watch?v=IzQucdaLDuo&list=PLJV94CctwuMCkTPrbIPDIMDnfHL4e4dbN&index=3)
+   - [LiveATC.net](https://www.liveatc.net/) - сайт, предоставляющий возможность слушать живые переговоры авиадиспетчеров и пилотов по всему миру в реальном времени
+   

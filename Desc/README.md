@@ -18,6 +18,11 @@ graph TD
   A[Запись аудио] --> C[Распознание речи]
   C --> D[Коррекция через ICAO]
   D --> E[Вывод текста]
+
+  style A fill:#E0F2E9,stroke:#4CAF50,stroke-width:2px,color:#000000
+  style C fill:#E0F2E9,stroke:#4CAF50,stroke-width:2px,color:#000000
+  style D fill:#E0F2E9,stroke:#4CAF50,stroke-width:2px,color:#000000
+  style E fill:#E0F2E9,stroke:#4CAF50,stroke-width:2px,color:#000000
 ```
 
 ---
@@ -45,7 +50,7 @@ graph TD
 
 ## 🖼️ Прототипы интерфейса
 
-![](https://github.com/filimonq/AviaSTT/blob/392fae8517b0a9ec21f0750537f35ebee6a5a998/Desc/gui.png)
+![interface](https://github.com/filimonq/AviaSTT/blob/4b3f3466b9e5f8eabbd5763c89c8206e93f739f9/Desc/PNG/gui.png)
 
 ---
 
